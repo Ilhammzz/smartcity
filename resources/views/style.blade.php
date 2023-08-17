@@ -50,6 +50,35 @@
         padding-bottom:24px;
     }
 
+    .kotak1 {
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color:#fff;
+        height: 160px; 
+        width: 328px;
+        box-shadow: 0px 3px 0px #EDEFF4; 
+    }
+
+    .kotak2 {
+        margin-top: 36px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color:#fff;
+        height: 106px; 
+        width: 328px;
+        box-shadow: 0px 3px 0px #EDEFF4; 
+    }
+
+    .judul {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px; /* 133.333% */
+        letter-spacing: 0.25px;
+    }
     
     </style>
 </head>
