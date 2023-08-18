@@ -52,7 +52,7 @@
                 <img src="{{asset('img/surat.png')}}" alt="">
             </div>
             <div class="col-10" style="margin-left:-1rem;">
-                Surat ...
+                Surat Kehilangan
             </div>
         </div>
         <hr class="hr" />
@@ -61,7 +61,7 @@
                 <img src="{{asset('img/surat.png')}}" alt="">
             </div>
             <div class="col-10" style="margin-left:-1rem;">
-                Surat ...
+                Surat Keterangan Usaha
             </div>
         </div>
         <hr class="hr" />
@@ -70,7 +70,7 @@
                 <img src="{{asset('img/surat.png')}}" alt="">
             </div>
             <div class="col-10" style="margin-left:-1rem;">
-                Surat ...
+                SKTM untuk Sekolah
             </div>
         </div>
         <hr class="hr" />

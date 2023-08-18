@@ -197,6 +197,17 @@
         line-height: 24px; /* 150% */
         letter-spacing: 0.15px;
     }
+
+    .logasadmin {
+        color: #01B7BB;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 166.667% */
+        letter-spacing: 0.25px;
+        padding: 16px 0px 10px;
+    }
     </style>
 </head>
 

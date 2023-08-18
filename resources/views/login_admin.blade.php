@@ -12,7 +12,7 @@
             <img src="{{asset('img/logo.png')}}" alt="" style="width:auto; height:auto">
         </div>
         <h1 style="padding: top 14px; padding-bottom:25px; text-align:center;">
-            Selamat datang!
+            Login Admin
         </h1>
         <p class="txtlogin">
             Silakan masuk dengan Username/ID dan Password Anda
@@ -20,24 +20,20 @@
         <form action="">
             <div class="" style="padding-bottom:24px;">
                 <label for="" class="ms-2 position-absolute" style="margin-top: -0.70rem; margin-left:32px;">
-                    <span class="bg-white px-1" style="font-size:12px; font-color:#49454F">NIK</span>
+                    <span class="bg-white px-1" style="font-size:12px; font-color:#49454F">Username/ID</span>
                 </label>
                 <input type="text" class="form-control" placeholder="" style="border-style:solid; border-width:2px; border-color:#97CBCC;">  
             </div>
             <div class="" style="padding-bottom:24px;">
                 <label for="" class="ms-2 position-absolute" style="margin-top: -0.70rem; margin-left:32px;">
-                    <span class="bg-white px-1" style="font-size:12px; font-color:#49454F">Tanggal Lahir</span>
+                    <span class="bg-white px-1" style="font-size:12px; font-color:#49454F">Password</span>
                 </label>
-                <input type="date" class="form-control" placeholder="" style="border-style:solid; border-width:2px; border-color:#97CBCC;">  
+                <input type="password" class="form-control" placeholder="" style="border-style:solid; border-width:2px; border-color:#97CBCC;">  
             </div>
-        <button class="btn-daftar rounded-3" type="submit"> Kirim </button>
+        <button class="btn-daftar rounded-3" type="submit"> Login </button>
 
         </form>
-        <div class="logasadmin text-center">
-            <p> 
-                Login sebagai admin <br> Belum punya akun? Daftar disini
-            </p>
-        </div>
+
        
 
 
