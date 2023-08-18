@@ -59,7 +59,8 @@
         margin-left: 16px;
         margin-right: 16px;
         background-color:#fff;
-        height: 160px; 
+        min-height: 160px; 
+        max-height: auto;
         width: 328px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
         padding-left: 16px;
@@ -109,6 +110,16 @@
         border-radius: 10px;
         background: rgba(255, 9, 9, 0.10);
         padding: 8px;
+    }
+
+    .kotak6 {
+        padding : 9px;   
+        width: 328px;
+        height: 90px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
     }
 
     .judul {
@@ -207,6 +218,38 @@
         line-height: 20px; /* 166.667% */
         letter-spacing: 0.25px;
         padding: 16px 0px 10px;
+    }
+
+    .dtdiri {
+        color: #49454F;
+        /* M3/body/small */
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px; /* 133.333% */
+        margin-top:13px;
+    }
+
+    .isidtdiri {
+        width: 236px;
+        color: var(--m-3-sys-light-on-surface, #1D1B20);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.15px;
+    }
+    .formgaris {
+        width: 296px;
+        border-width:1px;
+        border-style: solid;
+        border-color: #CAC4D0;
+        border-top : 0px;
+        border-left : 0px;
+        border-right : 0px;
+        border-radius : 0;
     }
     </style>
 </head>
