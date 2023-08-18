@@ -15,6 +15,10 @@
         padding-bottom : 20px;
     }
 
+    .container-home {
+        padding: 20px 16px 20px;
+    }
+
     .h1-signin {
         font-size : 30px;
         font-family : "Roboto";
@@ -52,26 +56,63 @@
 
     .kotak1 {
         margin-top: 25px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 16px;
+        margin-right: 16px;
         background-color:#fff;
         height: 160px; 
         width: 328px;
-        box-shadow: 0px 3px 0px #EDEFF4; 
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+        padding-left: 16px;
+        padding-top:12px;
+        padding-right:16px;
+        padding-bottom:12px;
     }
 
     .kotak2 {
         margin-top: 36px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 36px;
         background-color:#fff;
         height: 106px; 
         width: 328px;
-        box-shadow: 0px 3px 0px #EDEFF4; 
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+        padding: 12px 16px 12px;
+    }
+    
+    .kotak3 {
+        width: 328px;
+        min-height: 245px;
+        max-height: auto;
+        flex-shrink: 0;
+        padding: 12px 7px 12px;
+        border-radius: 10px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    }
+
+    .kotak4 {
+        margin-top: 24px;
+        width: 328px;
+        height: 64px;
+        flex-shrink: 0;
+        padding: 22px 15px 22px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    }
+
+    .kotak5{
+        margin-top: 24px;
+        width: 328px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: rgba(255, 9, 9, 0.10);
+        padding: 8px;
     }
 
     .judul {
-        color: #FFF;
+        color: #FFFFFF;
         font-family: Roboto;
         font-size: 30px;
         font-style: normal;
@@ -80,6 +121,82 @@
         letter-spacing: 0.25px;
     }
     
+    .subjudul {
+        color: var(--m-3-sys-light-on-surface, #1D1B20);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.5px;
+    }
+
+    .isi {
+        color: var(--m-3-sys-light-on-surface-variant, #49454F);
+        /* M3/body/medium */
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+        letter-spacing: 0.25px;
+    }
+
+    .lck {
+        margin-top:8px;
+        color: #01B7BB;
+        text-align: center;
+        font-family: Roboto;    
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.5px;
+
+    }
+    
+    .nama {
+        color: var(--m-3-sys-light-on-surface, #1D1B20);
+        /* M3/title/medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: medium;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.15px;
+    }
+
+    .nohp {
+        color: #777777;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: medium;
+        font-weight: 500;
+        line-height: 20px; /* 142.857% */
+        letter-spacing: 0.25px;
+    }
+
+    .alamat {
+        color: #777777;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 166.667% */
+        letter-spacing: 0.25px;
+    }
+
+    .jdlsurat {
+        align-self: stretch;
+        color: #49454F;
+        /* M3/title/medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.15px;
+    }
     </style>
 </head>
 
