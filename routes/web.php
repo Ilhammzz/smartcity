@@ -31,3 +31,6 @@ Route::get('/profil', function () {
 Route::get('/suratkehilangan', function () {
     return view('surat_kehilangan');
 });
+Route::get('/suratdone', function () {
+    return view('surat_sukses');
+});
