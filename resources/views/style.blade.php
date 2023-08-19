@@ -122,6 +122,26 @@
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
     }
 
+    .kotakcyan {
+        width: 328px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 10px 10px 0px 0px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+        background: #01B7BB;
+        padding : 12px 16px 12px;
+    }
+
+    .kotakattach {
+        width: 328px;
+        height: auto;
+        flex-shrink: 0;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+        background: #FFFFFF;
+        padding : 4px 15px 4px;
+    }
+
     .judul {
         color: #FFFFFF;
         font-family: Roboto;
@@ -142,6 +162,25 @@
         letter-spacing: 0.5px;
     }
 
+    .judulsurat {
+        color: #1D1B20;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px; /* 166.667% */
+        letter-spacing: 0.25px;
+    }
+
+    .ketsurat{
+        color: var(--m-3-sys-light-on-surface-variant, #49454F);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+        letter-spacing: 0.25px;
+    }
     .isi {
         color: var(--m-3-sys-light-on-surface-variant, #49454F);
         /* M3/body/medium */
@@ -250,6 +289,25 @@
         border-left : 0px;
         border-right : 0px;
         border-radius : 0;
+    }
+
+    .headerattach{
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.5px;
+    }
+
+    .btnajukan {
+        width: 180px;
+        height: 32px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #01B7BB;
+        border : 0px;
     }
     </style>
 </head>

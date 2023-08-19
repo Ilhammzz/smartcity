@@ -28,3 +28,6 @@ Route::get('/home', function () {
 Route::get('/profil', function () {
     return view('profil');
 });
+Route::get('/suratkehilangan', function () {
+    return view('surat_kehilangan');
+});
