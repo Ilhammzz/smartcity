@@ -40,3 +40,6 @@ Route::get('/suratkehilangan', function () {
 Route::get('/suratdone', function () {
     return view('surat_sukses');
 });
+Route::get('/suratmasuk', function () {
+    return view('admin_suratmasuk');
+});

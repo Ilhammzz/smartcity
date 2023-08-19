@@ -154,6 +154,15 @@
         padding : 16px;
     }
 
+    .kotakadmin {
+        width: 360px;
+        min-height : 60px;
+        height: auto;
+        flex-shrink: 0;
+        background: #FFF;
+        padding : 16px;
+    }
+
     .judul {
         color: #FFFFFF;
         font-family: Roboto;
@@ -180,7 +189,7 @@
         font-size: 24px;
         font-style: normal;
         font-weight: 500;
-        line-height: 40px; /* 166.667% */
+        line-height: 24px; /* 166.667% */
         letter-spacing: 0.25px;
     }
 
@@ -320,6 +329,16 @@
         border-radius: 10px;
         background: #01B7BB;
         border : 0px;
+    }
+
+    .juduladmin {
+        color: #1D1B20;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 100% */
+        letter-spacing: 0.15px;
     }
     </style>
 </head>
