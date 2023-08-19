@@ -22,8 +22,14 @@ Route::get('/signin', function () {
 Route::get('/login', function () {
     return view('login');
 });
+Route::get('/adminlogin', function () {
+    return view('login_admin');
+});
 Route::get('/home', function () {
     return view('homepage');
+});
+Route::get('/homeadmin', function () {
+    return view('homepage_admin');
 });
 Route::get('/profil', function () {
     return view('profil');

@@ -1,0 +1,83 @@
+@extends ('master')
+
+@section('judul')
+    Aplikasi Pelayanan <br> Desa Ngrendeng
+@endsection
+
+@section('konten')
+<div class="kotak1 rounded-3" style="">
+    <div class="row">
+        <div class="col me-0 mb-0">
+            <p class="subjudul mb-0" >
+                Fitur admin <img src="{{asset('img/admin_settings.png')}}" alt="">
+            </p>
+        </div>
+        <div class="col me-0 ms-0 mt-2 text-end">
+            <img src="{{asset('img/lacak.png')}}">
+        </div>
+    </div>
+            <div class="isi" style="margin-top:-0.70rem">
+            <ul>
+                    <li>List surat masuk</li>
+                    <li>Progres verifikasi</li>
+                    <li>Edit template surat</li>
+                    <li>Database dan berkas <br> pengajuan surat</li>
+                 </ul>
+             </div>
+</div>
+<div class="kotak2 rounded-3" style="margin-bottom:12px;">
+    <div class="row">
+        <div class="col-2">
+            <img src="{{asset('img/monogram.png')}}" alt="">
+        </div>
+        <div class="col-9">
+            <div class="nama text-start mb-1"> <b>Nama</b> </div>
+            <div class="nohp text-start mb-1"> <b>000</b></div>
+            <div class="alamat text-start"> Alamat </div>
+        </div>
+        <div class="col-1 mt-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12" fill="none">
+             <path d="M1 1L5 6L1 11" stroke="#9C9D9F" stroke-width="2"/>
+            </svg>
+        </div>
+    </div>
+</div>
+<div class="container-home">
+    <p class="subjudul">
+        Dashboard
+    </p>
+    <div class="row">
+        <div class="col-5 kotakkecil">
+
+        </div>
+        <div class="col-5 kotakkecil text-end">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5 kotakkecil">
+
+        </div>
+        <div class="col-5 kotakkecil text-end">
+
+        </div>
+    </div>
+    <div class="kotak6">
+                <div class="row">
+                    <div class="col-2 mt-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                        <path d="M10.5852 4H4.73149C3.65832 4 2.79003 4.9 2.79003 6L2.78027 18C2.78027 19.1 3.65832 20 4.73149 20H20.3412C21.4144 20 22.2925 19.1 22.2925 18V8C22.2925 6.9 21.4144 6 20.3412 6H12.5364L10.5852 4Z" fill="#323232"/>
+                        </svg>
+                    </div>
+                    <div class="col-10" style="margin-left:-1.5rem;">
+                        <p class="subjudul"> History dan Berkas </p>
+                        <p class="isi" style="margin-top:-1rem;">Daftar riwayat surat yang telah <br> diproses</p>
+                    </div>
+                </div>
+</div>
+<div class="kotak5 mb-4">
+        <p class="text-danger text-center">Keluar Akun</p>
+    </div>
+@endsection
+
+

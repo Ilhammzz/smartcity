@@ -142,6 +142,18 @@
         padding : 4px 15px 4px;
     }
 
+    .kotakkecil {
+        width: 156px;
+        height: 120px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+        margin-left : 16px;
+        margin-bottom : 16px;
+        padding : 16px;
+    }
+
     .judul {
         color: #FFFFFF;
         font-family: Roboto;
