@@ -83,12 +83,10 @@
     
     .kotak3 {
         width: 328px;
-        min-height: 245px;
-        max-height: auto;
-        flex-shrink: 0;
+        height: auto;
         padding: 12px 7px 12px;
         border-radius: 10px;
-        background: #FFFFFF;
+        background: #FFF;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
     }
 
@@ -151,7 +149,7 @@
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
         margin-left : 16px;
         margin-bottom : 16px;
-        padding : 16px;
+        padding : 12px;
     }
 
     .kotakadmin {
@@ -339,6 +337,24 @@
         font-weight: 500;
         line-height: 24px; /* 100% */
         letter-spacing: 0.15px;
+    }
+    .jmlsurat {
+        color: var(--m-3-sys-light-on-surface, #1D1B20);
+        font-family: Roboto;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px; /* 41.667% */
+        letter-spacing: 0.5px;
+    }
+    .desckotak{
+        color: var(--m-3-sys-light-on-surface, #1D1B20);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 125% */
+        letter-spacing: 0.5px;
     }
     </style>
 </head>

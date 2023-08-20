@@ -1,5 +1,7 @@
 @extends ('surat')
 
+<img src="{{asset('img/keyboard_backspace.svg')}}" alt="" style="padding-top:22px;padding-left:22px;">
+
 @section('namasurat')
 Surat Kehilangan
 @endsection

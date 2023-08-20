@@ -1,5 +1,7 @@
 @extends ('master')
 
+<img src="{{asset('img/keyboard_backspace.svg')}}" alt="" style="padding-top:22px;padding-left:22px;">
+
 @section('judul')
     Aplikasi Pelayanan <br> Desa Ngrendeng
 @endsection

@@ -7,7 +7,9 @@
     @extends('style')
     
 </head>
-<body style="background-image: url('img/bg-desa.png'); background-repeat: no-repeat; background-color:#F8FAFF;height:239.391px;justify-content:center;">
+<body style="
+background-image: url('img/bg-desa.png'); background-repeat: no-repeat; background-color:#F8FAFF;height:239.391px;
+justify-content:center;background-size:100% auto; min-height: 100vh; ">
     <div class=container-home>
         <p class="judul" style="margin-left:6px;"> 
             @yield('judul')

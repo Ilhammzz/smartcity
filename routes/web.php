@@ -43,3 +43,6 @@ Route::get('/suratdone', function () {
 Route::get('/suratmasuk', function () {
     return view('admin_suratmasuk');
 });
+Route::get('/suratambil', function () {
+    return view('admin_suratambil');
+});
