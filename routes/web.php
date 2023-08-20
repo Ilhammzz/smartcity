@@ -46,3 +46,6 @@ Route::get('/suratmasuk', function () {
 Route::get('/suratambil', function () {
     return view('admin_suratambil');
 });
+Route::get('/suratpreview', function () {
+    return view('admin_previewsurat');
+});

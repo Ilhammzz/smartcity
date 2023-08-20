@@ -356,6 +356,27 @@
         line-height: 20px; /* 125% */
         letter-spacing: 0.5px;
     }
+
+    .subjudulbiru {
+        color: #01B7BB;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: 0.15px;
+    }
+    .namanik {
+        margin-left : -1rem;
+        color: #49454F;
+        /* M3/title/medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.15px;
+    }
     </style>
 </head>
 
