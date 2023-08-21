@@ -1,7 +1,11 @@
 @extends ('master')
 
+
+
 @section('judul')
+<div class="judulhome">
     Aplikasi Pelayanan <br> Desa Ngrendeng
+</div>
 @endsection
 
 @section('konten')

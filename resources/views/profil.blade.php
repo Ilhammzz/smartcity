@@ -7,7 +7,7 @@
 @endsection
 
 @section('konten')
-        <div class="kotak1 rounded-3">
+        <div class="kotak1 rounded-3" style="margin-top:-0.7rem;">
             <p class="subjudul">
                 Profil
             </p>

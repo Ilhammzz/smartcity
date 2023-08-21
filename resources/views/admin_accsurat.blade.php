@@ -23,7 +23,7 @@
         <div class="subjudulbiru">
             Penerimaan surat ajuan
         </div>
-        <div class="row justify-content:center">
+        <div class="row justify-content:center mt-4">
             <div class="col-2">
                 <img src="{{asset('img/person_outline.png')}}" alt="">
             </div>
@@ -31,11 +31,20 @@
                 nama <br> NIK
             </div>
         </div>
+        <div class="row justify-content:center mt-4">
+            <div class="col-6">
+                <p class="subjudul">
+                    <b>Profil pengaju surat :</b>
+                </p>
+            </div>
+            <div class="col-6 text-end">
+                Edit
+            </div>
+        </div>
 
-        <iframe src="{{asset('tes.pdf')}}" frameborder="0" style="width:328px;height: 425px;margin-top:33px;">
-        </iframe>
+        
         <button class="btn-daftar rounded-3 mt-4" type="submit"> Download </button>
-        <button class="btn-daftar rounded-3 mt-4" type="submit"> Selesai </button>
+        
     </div>
     
 

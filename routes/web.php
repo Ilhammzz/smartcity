@@ -29,7 +29,7 @@ Route::get('/home', function () {
     return view('homepage');
 });
 Route::get('/homeadmin', function () {
-    return view('homepage_admin');
+    return view('admin_homepage');
 });
 Route::get('/profil', function () {
     return view('profil');
@@ -48,4 +48,7 @@ Route::get('/suratambil', function () {
 });
 Route::get('/suratpreview', function () {
     return view('admin_previewsurat');
+});
+Route::get('/suratacc', function () {
+    return view('coba');
 });

@@ -8,6 +8,27 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
     <style>
+
+    body {
+        display : flex-column;
+        justify-content : center;
+        background-color:#F8FAFF; 
+        height:0px;
+        position: absolute;
+        left: 50%;
+        top: 1%; 
+        transform: translate(-50%, -50%);
+        background:url('img/bg-desa1.png');  
+        background-width:100%; 
+        background-repeat:no-repeat;
+        background-size: cover; 
+    }
+
+    .container-coba {
+        padding : 0px;
+        width : 360px;
+        height : auto;
+    }
         .container-signin {
         padding-right : 20px;
         padding-left : 20px;
@@ -27,7 +48,7 @@
 
     .btn-daftar {
         width: 100%;
-        height: 40px;
+        height: 32px;
         background-color: #01B7BB;
         color : #ffffff;
         border-style: none;
@@ -159,16 +180,29 @@
         flex-shrink: 0;
         background: #FFF;
         padding : 16px;
+        padding-bottom : 40px;
     }
 
     .judul {
-        color: #FFFFFF;
+        color: #FFF;
         font-family: Roboto;
         font-size: 30px;
         font-style: normal;
         font-weight: 500;
         line-height: 40px; /* 133.333% */
         letter-spacing: 0.25px;
+        margin-left:16px;
+    }
+    .judulhome {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px; /* 133.333% */
+        letter-spacing: 0.25px;
+        margin-left:16px;
+        margin-top : 20px;
     }
     
     .subjudul {
