@@ -52,3 +52,10 @@ Route::get('/suratpreview', function () {
 Route::get('/suratacc', function () {
     return view('admin_accsurat');
 });
+
+
+///
+
+Route::get('/pengajuan_diterima', function () {
+    return view('pengajuan_diterima');
+});
