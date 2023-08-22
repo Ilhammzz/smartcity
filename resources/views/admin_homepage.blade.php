@@ -25,23 +25,7 @@
                  </ul>
              </div>
 </div>
-<div class="kotak2 rounded-3" style="margin-bottom:12px;">
-    <div class="row">
-        <div class="col-2">
-            <img src="{{asset('img/monogram.png')}}" alt="">
-        </div>
-        <div class="col-9">
-            <div class="nama text-start mb-1"> <b>Nama</b> </div>
-            <div class="nohp text-start mb-1"> <b>000</b></div>
-            <div class="alamat text-start"> Alamat </div>
-        </div>
-        <div class="col-1 mt-4">
-            <svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12" fill="none">
-             <path d="M1 1L5 6L1 11" stroke="#9C9D9F" stroke-width="2"/>
-            </svg>
-        </div>
-    </div>
-</div>
+
 <div class="container-home">
     <p class="subjudul">
         Dashboard
@@ -54,24 +38,60 @@
                         0
                     </div>
                     <div class="col-5">
-                        <img src="{{asset('img/notif.svg')}}" alt="">
+                    <i class="fa-solid fa-envelope fa-xs"></i>
                     </div>
                 </div>
-                <div class="desckotak mt-3">
+                <div class="desckotak mt-4">
                 Surat pengajuan diterima
                 </div>
             </div>
         </div>
-        <div class="col-5 kotakkecil text-end">
-
+        <div class="col-5 kotakkecil ">
+        <div class="jmlsurat mt-2">
+                <div class=row>
+                    <div class="col-7">
+                        0
+                    </div>
+                    <div class="col-5">
+                        <i class="fa-regular fa-clipboard fa-xs"></i> 
+                    </div>
+                </div>
+                <div class="desckotak mt-4">
+                Surat yang ditunda
+                </div>
+            </div>
         </div>
     </div>
     <div class="row">
         <div class="col-5 kotakkecil">
-
+        <div class="jmlsurat mt-2">
+                <div class=row>
+                    <div class="col-7">
+                        0
+                    </div>
+                    <div class="col-5">
+                        <i class="fa-regular fa-circle-check fa-xs"></i>
+                    </div>
+                </div>
+                <div class="desckotak mt-4">
+                    Kirim notifikasi surat terverifikasi
+                </div>
+            </div>
         </div>
         <div class="col-5 kotakkecil text-end">
-
+        <div class="jmlsurat mt-2">
+                <div class=row>
+                    <div class="col-7">
+                        0
+                    </div>
+                    <div class="col-5">
+                        <i class="fa-regular fa-circle-check fa-xs"></i>
+                    </div>
+                </div>
+                <div class="desckotak mt-4">
+                    Surat siap cetak
+                </div>
+            </div>
         </div>
     </div>
     <div class="kotak6">

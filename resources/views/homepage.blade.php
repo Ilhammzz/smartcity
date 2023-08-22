@@ -24,15 +24,18 @@
                  Anda dapat melacak status <br> Surat Pengajuan yang telah <br> anda buat dan telah <br>disubmit disini
              </div>
     <div class="lck">
+        <a href="{{url('/')}}">
         <label>
                 Lacak Surat <svg class="ms-1 mb-0.5" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12" fill="none"> <path d="M1 1L5 6L1 11" stroke="#01B7BB" stroke-width="2"/> </svg>
         </label>
+        </a>
     </div>
 </div>
+<a href="{{url('profil')}}" style="display:block;">
 <div class="kotak2 rounded-3">
     <div class="row">
         <div class="col-2">
-            <img src="{{asset('img/monogram.png')}}" alt="">
+           <img src="{{asset('img/monogram.png')}}" alt="">
         </div>
         <div class="col-9">
             <div class="nama text-start mb-1"> <b>Nama</b> </div>
@@ -46,6 +49,8 @@
         </div>
     </div>
 </div>
+</a>
+
 <div class="container-home">
     <p class="subjudul">
         Pengajuan Surat

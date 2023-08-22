@@ -50,5 +50,5 @@ Route::get('/suratpreview', function () {
     return view('admin_previewsurat');
 });
 Route::get('/suratacc', function () {
-    return view('coba');
+    return view('admin_accsurat');
 });
