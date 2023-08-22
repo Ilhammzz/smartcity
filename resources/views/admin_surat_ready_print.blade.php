@@ -26,7 +26,7 @@ Kirim notif surat terverifikasi
         <hr class="hr" style="margin-top:-0.5rem;"/>
             <div class="row">
                 <div class="col-2 me-0 mb-4">
-                    <i class="fa-regular fa-user"></i>
+                    <img src="{{asset('img/person_outline.svg')}}" alt="">
                 </div>
                 <div class="col-6" style="margin-left:-1rem; ">
                     Nama
@@ -37,7 +37,7 @@ Kirim notif surat terverifikasi
             </div>
             <div class="row">
                 <div class="col-2 me-0 mb-4">
-                    <i class="fa-regular fa-user"></i>
+                    <img src="{{asset('img/person_outline.svg')}}" alt="">
                 </div>
                 <div class="col-6" style="margin-left:-1rem; ">
                     Nama
@@ -48,7 +48,7 @@ Kirim notif surat terverifikasi
             </div>
             <div class="row">
                 <div class="col-2 me-0 mb-4">
-                    <i class="fa-regular fa-user"></i>
+                    <img src="{{asset('img/person_outline.svg')}}" alt="">
                 </div>
                 <div class="col-6" style="margin-left:-1rem; ">
                     Nama
@@ -59,7 +59,7 @@ Kirim notif surat terverifikasi
             </div>
             <div class="row">
                 <div class="col-2 me-0 mb-4">
-                    <i class="fa-regular fa-user"></i>
+                    <img src="{{asset('img/person_outline.svg')}}" alt="">
                 </div>
                 <div class="col-6" style="margin-left:-1rem; ">
                     Nama
@@ -70,7 +70,7 @@ Kirim notif surat terverifikasi
             </div>
             <div class="row">
                 <div class="col-2 me-0 mb-4">
-                    <i class="fa-regular fa-user"></i>
+                    <img src="{{asset('img/person_outline.svg')}}" alt="">
                 </div>
                 <div class="col-6" style="margin-left:-1rem; ">
                     Nama
