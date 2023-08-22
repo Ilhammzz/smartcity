@@ -35,7 +35,6 @@
         background:url('img/bg-desa1.png');  
         background-width:100%; 
         background-repeat:no-repeat;
-        background-size: cover; 
     }
 
     .container-coba {
