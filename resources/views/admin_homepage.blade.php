@@ -78,14 +78,14 @@
                 </div>
             </div>
         </div>
-        <div class="col-5 kotakkecil text-end">
+        <div class="col-5 kotakkecil">
         <div class="jmlsurat mt-2">
                 <div class=row>
                     <div class="col-7">
                         0
                     </div>
                     <div class="col-5">
-                        <i class="fa-regular fa-circle-check fa-xs"></i>
+                        <i class="fa-solid fa-envelope-open fa-xs"></i>
                     </div>
                 </div>
                 <div class="desckotak mt-4">
