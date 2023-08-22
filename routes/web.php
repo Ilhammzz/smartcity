@@ -57,5 +57,11 @@ Route::get('/suratacc', function () {
 ///
 
 Route::get('/pengajuan_diterima', function () {
-    return view('pengajuan_diterima');
+    return view('admin_pengajuan_diterima');
+});
+Route::get('/surat_jenis_ready_print', function () {
+    return view('admin_surat_jenis_ready_print');
+});
+Route::get('/surat_ready_print', function () {
+    return view('admin_surat_ready_print');
 });
