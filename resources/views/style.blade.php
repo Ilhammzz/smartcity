@@ -9,7 +9,9 @@
 
     <style>
 
-    body {
+
+
+    #body {
         display : flex-column;
         justify-content : center;
         background-color:#F8FAFF; 

@@ -35,7 +35,7 @@
         </form>
         <div class="logasadmin text-center">
             <p> 
-                Login sebagai admin <br> Belum punya akun? Daftar disini
+               <a href="{{url('/adminlogin')}}">Login sebagai admin</a>  <br> Belum punya akun? Daftar disini
             </p>
         </div>
        

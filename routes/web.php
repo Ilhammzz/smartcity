@@ -23,7 +23,7 @@ Route::get('/login', function () {
     return view('login');
 });
 Route::get('/adminlogin', function () {
-    return view('login_admin');
+    return view('admin_login');
 });
 Route::get('/home', function () {
     return view('homepage');

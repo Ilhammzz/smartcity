@@ -7,7 +7,7 @@
     @extends('style')
     
 </head>
-<body  >
+<body id="body"  >
     <div class="container-home">
         <p class="judul"> 
             @yield('judul')
