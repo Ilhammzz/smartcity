@@ -24,7 +24,7 @@
                  Anda dapat melacak status <br> Surat Pengajuan yang telah <br> anda buat dan telah <br>disubmit disini
              </div>
     <div class="lck">
-        <a href="{{url('/status_surat')}}">
+        <a href="/status_surat" class="biru">
         <label>
                 Lacak Surat <svg class="ms-1 mb-0.5" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12" fill="none"> <path d="M1 1L5 6L1 11" stroke="#01B7BB" stroke-width="2"/> </svg>
         </label>
@@ -56,7 +56,7 @@
         Pengajuan Surat
     </p>
     <div class="kotak3">
-        <a href="{{url('/suratkehilangan')}}">
+        <a href="/suratkehilangan" class="hitam">
         <div class="row">
             <div class="col-2 me-0">
                 <img src="{{asset('img/surat.png')}}" alt="">

@@ -1,5 +1,7 @@
 @extends ('master')
-
+<a href="/home">
+<i class="fa-solid fa-arrow-left" style="color: #ffffff;padding-top:22px;padding-left:22px;"></i>
+</a>
 @section('judul')
     Pengajuan Surat <br> Kehilangan
 @endsection

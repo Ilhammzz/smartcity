@@ -1,33 +1,28 @@
 @extends ('master')
-<a href="/surat_jenis_ready_print">
+<a href="/homeadmin">
 <i class="fa-solid fa-arrow-left" style="color: #ffffff;padding-top:22px;padding-left:22px;"></i>
 </a>
 @section('judul')
-Surat siap dicetak
+Kirim notif surat ditolak
 @endsection
 
 @section('konten')
     <div class="kotakadmin">
         <div class="row">
             <div class="col-1   ">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <g clip-path="url(#clip0_235_1336)">
-                    <path d="M20 2H8C6.9 2 6 2.9 6 4V16C6 17.1 6.9 18 8 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2ZM12.47 14L9 10.5L10.4 9.09L12.47 11.17L17.6 6L19 7.41L12.47 14ZM4 6H2V20C2 21.1 2.9 22 4 22H18V20H4V6Z" fill="#323232"/>
-                    </g><defs><clipPath id="clip0_235_1336"><rect width="24" height="24" fill="white"/>
-                    </clipPath></defs>
-                </svg>
+            <i class="fa-regular fa-circle-xmark fa-xl mt-3"></i>
             </div>
-            <div class="col-11">
-                <p class="judulsurat ms-2">
-                    Nama surat 
+            <div class="col-11 mt-1">
+                <p class="judulsurat"> 
+                    Surat-surat ditolak
                 </p>
             </div>
         </div>
         <hr class="hr" style="margin-top:-0.5rem;"/>
-        <a href="/suratpreview" class="hitam">
+        <a href="/surat_ditolak" class="hitam">
             <div class="row">
                 <div class="col-2 me-0 mb-4">
-                    <img src="{{asset('img/person_outline.svg')}}" alt="">
+                    <i class="fa-regular fa-user mt-1"></i>
                 </div>
                 <div class="col-6" style="margin-left:-1rem; ">
                     Nama
@@ -36,21 +31,10 @@ Surat siap dicetak
                     <b>1 Agustus</b>
                 </div>
             </div>
-            </a>
+        </a>
             <div class="row">
                 <div class="col-2 me-0 mb-4">
-                    <img src="{{asset('img/person_outline.svg')}}" alt="">
-                </div>
-                <div class="col-6" style="margin-left:-1rem; ">
-                    Nama
-                </div>
-                <div class="col-4 text-end">
-                    <b>1 Agustus</b>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-2 me-0 mb-4">
-                    <img src="{{asset('img/person_outline.svg')}}" alt="">
+                    <i class="fa-regular fa-user mt-1"></i>
                 </div>
                 <div class="col-6" style="margin-left:-1rem; ">
                     Nama
@@ -61,7 +45,7 @@ Surat siap dicetak
             </div>
             <div class="row">
                 <div class="col-2 me-0 mb-4">
-                    <img src="{{asset('img/person_outline.svg')}}" alt="">
+                    <i class="fa-regular fa-user mt-1"></i>
                 </div>
                 <div class="col-6" style="margin-left:-1rem; ">
                     Nama
@@ -72,7 +56,7 @@ Surat siap dicetak
             </div>
             <div class="row">
                 <div class="col-2 me-0 mb-4">
-                    <img src="{{asset('img/person_outline.svg')}}" alt="">
+                    <i class="fa-regular fa-user mt-1"></i>
                 </div>
                 <div class="col-6" style="margin-left:-1rem; ">
                     Nama
@@ -81,5 +65,19 @@ Surat siap dicetak
                     <b>1 Agustus</b>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-2 me-0 mb-4">
+                    <i class="fa-regular fa-user mt-1"></i>
+                </div>
+                <div class="col-6" style="margin-left:-1rem; ">
+                    Nama
+                </div>
+                <div class="col-4 text-end">
+                    <b>1 Agustus</b>
+                </div>
+            </div>
+            <button class="btn-daftar red rounded-3 mt-5">
+                Notifikasi semua
+            </button>
     </div>
 @endsection

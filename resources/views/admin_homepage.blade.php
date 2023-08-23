@@ -31,7 +31,7 @@
         Dashboard
     </p>
     <div class="row">
-    <a href="{{('/suratmasuk')}}" style="display:block">
+    <a href="{{('/suratmasuk')}}" style="display:block" class="hitam">
         <div class="col-5 kotakkecil">
             <div class="jmlsurat mt-2">
                 <div class=row>
@@ -48,24 +48,28 @@
                 </a>
             </div>
         </div>
+    
         <div class="col-5 kotakkecil ">
+        <a href="/surattolak" style="display:block" class="hitam">
         <div class="jmlsurat mt-2">
                 <div class=row>
                     <div class="col-7">
                         0
                     </div>
                     <div class="col-5">
-                        <i class="fa-regular fa-clipboard fa-xs"></i> 
+                        <i class="fa-regular fa-circle-xmark fa-xs"></i>
                     </div>
                 </div>
                 <div class="desckotak mt-4">
-                Surat yang ditunda
+                    Surat yang ditolak
                 </div>
             </div>
         </div>
     </div>
+    </a>    
     <div class="row">
         <div class="col-5 kotakkecil">
+        <a href="/suratambil" style="display:block" class="hitam">
         <div class="jmlsurat mt-2">
                 <div class=row>
                     <div class="col-7">
@@ -79,8 +83,10 @@
                     Kirim notifikasi surat terverifikasi
                 </div>
             </div>
+            </a>
         </div>
         <div class="col-5 kotakkecil">
+            <a href="/surat_jenis_ready_print">
         <div class="jmlsurat mt-2">
                 <div class=row>
                     <div class="col-7">
@@ -96,6 +102,7 @@
             </div>
         </div>
     </div>
+    </a>
     <div class="kotak6">
                 <div class="row">
                     <div class="col-2 mt-3">

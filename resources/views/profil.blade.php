@@ -1,6 +1,6 @@
 @extends ('master')
 <a href="{{url('/home')}}">
-<img src="{{asset('img/keyboard_backspace.svg')}}" alt="" style="padding-top:22px;padding-left:22px;">
+<i class="fa-solid fa-arrow-left" style="color: #ffffff;padding-top:22px;padding-left:22px;"></i>
 </a>
 @section('judul')
     Aplikasi Pelayanan <br> Desa Ngrendeng
@@ -30,11 +30,9 @@
             <div class="dtdiri">
             Jenis Kelamin<span class="text-danger">*</span>
             </div>
-                      <select class="form-control formgaris" id="">
-                        <option></option>
-                        <option>Laki-laki</option>
-                        <option>Perempuan</option>
-                      </select>
+                <div class="isidtdiri mt-2">
+                        <input type="text" class="form-control formgaris">
+                    </div>
             <div class="dtdiri">
             Kewarganegaraan<span class="text-danger">*</span>
             </div>

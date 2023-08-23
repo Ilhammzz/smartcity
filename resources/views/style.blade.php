@@ -10,8 +10,15 @@
 
     <style>
 
-    a {
+    .hitam {
+        color : #1D1B20;
+    }
+
+    .biru {
         color : #01B7BB;
+    }
+
+    a {
         text-decoration : none; 
     }
     .link {
@@ -418,6 +425,14 @@
         font-weight: 500;
         line-height: 24px; /* 150% */
         letter-spacing: 0.15px;
+    }
+
+    .red {
+        background-color : #E05634
+    }
+
+    .merah {
+        color : #E05634 
     }
     </style>
 </head>

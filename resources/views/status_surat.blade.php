@@ -1,6 +1,6 @@
 @extends ('master')
 <a href="{{url('/home')}}">
-<img src="{{asset('img/keyboard_backspace.svg')}}" alt="" style="padding-top:22px;padding-left:22px;">
+<i class="fa-solid fa-arrow-left" style="color: #ffffff;padding-top:22px;padding-left:22px;"></i>
 </a>
 @section('judul')
     Suratku

@@ -1,7 +1,7 @@
 @extends ('master')
-
-<img src="{{asset('img/keyboard_backspace.svg')}}" alt="" style="padding-top:22px;padding-left:22px;">
-
+<a href="/homeadmin">
+<i class="fa-solid fa-arrow-left" style="color: #ffffff;padding-top:22px;padding-left:22px;"></i>
+</a>
 @section('judul')
 Pengecekan Surat Pengajuan
 @endsection
@@ -23,60 +23,68 @@ Pengecekan Surat Pengajuan
             </div>
         </div>
         <hr class="hr" style="margin-top:-0.5rem;"/>
+        <a href="{{url('/suratmasuk_surat')}}" class="hitam">
             <div class="row">
-                <div class="col-2 me-0 mb-4">
-                    <img src="{{asset('img/surat.png')}}" alt="">
+                <div class="col-2 me-0 mb-4 mt-3">
+                    <i class="fa-regular fa-envelope fa-lg"></i>
                 </div>
-                <div class="col-9" style="margin-left:-1rem; ">
-                    Surat Kehilangan
+                <div class="col-9 mt-1" style="margin-left:-1rem; ">
+                    Nama surat
                 </div>
-                <div class="col-1">
+                <div class="col-1 mt-1">
                     <b>0</b>
                 </div>
             </div>
+            </a>
+            <hr class="hr" style="margin-top:-0.5rem;"/>
             <div class="row">
-                <div class="col-2 me-0 mb-4">
-                    <img src="{{asset('img/surat.png')}}" alt="">
+                <div class="col-2 me-0 mb-4 mt-3">
+                    <i class="fa-regular fa-envelope fa-lg"></i>
                 </div>
-                <div class="col-9" style="margin-left:-1rem; ">
-                    Surat Kehilangan
+                <div class="col-9 mt-1" style="margin-left:-1rem; ">
+                    Nama surat
                 </div>
-                <div class="col-1">
+                <div class="col-1 mt-1">
                     <b>0</b>
                 </div>
             </div>
+            <hr class="hr" style="margin-top:-0.5rem;"/>
             <div class="row">
-                <div class="col-2 me-0 mb-4">
-                    <img src="{{asset('img/surat.png')}}" alt="">
+                <div class="col-2 me-0 mb-4 mt-3">
+                    <i class="fa-regular fa-envelope fa-lg"></i>
                 </div>
-                <div class="col-9" style="margin-left:-1rem; ">
-                    Surat Kehilangan
+                <div class="col-9 mt-1" style="margin-left:-1rem; ">
+                    Nama surat
                 </div>
-                <div class="col-1">
+                <div class="col-1 mt-1">
                     <b>0</b>
                 </div>
             </div>
+            <hr class="hr" style="margin-top:-0.5rem;"/>
             <div class="row">
-                <div class="col-2 me-0 mb-4">
-                    <img src="{{asset('img/surat.png')}}" alt="">
+                <div class="col-2 me-0 mb-4 mt-3">
+                    <i class="fa-regular fa-envelope fa-lg"></i>
                 </div>
-                <div class="col-9" style="margin-left:-1rem; ">
-                    Surat Kehilangan
+                <div class="col-9 mt-1" style="margin-left:-1rem; ">
+                    Nama surat
                 </div>
-                <div class="col-1">
+                <div class="col-1 mt-1">
                     <b>0</b>
                 </div>
             </div>
+            <hr class="hr" style="margin-top:-0.5rem;"/>
             <div class="row">
-                <div class="col-2 me-0 mb-4">
-                    <img src="{{asset('img/surat.png')}}" alt="">
+                <div class="col-2 me-0 mb-4 mt-3">
+                    <i class="fa-regular fa-envelope fa-lg"></i>
                 </div>
-                <div class="col-9" style="margin-left:-1rem; ">
-                    Surat Kehilangan
+                <div class="col-9 mt-1" style="margin-left:-1rem; ">
+                    Nama surat
                 </div>
-                <div class="col-1">
+                <div class="col-1 mt-1">
                     <b>0</b>
                 </div>
             </div>
+            <hr class="hr" style="margin-top:-0.5rem;"/>
+            
     </div>
 @endsection

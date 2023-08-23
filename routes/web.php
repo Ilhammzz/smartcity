@@ -31,6 +31,12 @@ Route::get('/home', function () {
 Route::get('/homeadmin', function () {
     return view('admin_homepage');
 });
+Route::get('/surat_ditolak', function () {
+    return view('admin_surat_ditolak');
+});
+Route::get('/surattolak', function () {
+    return view('admin_surattolak');
+});
 Route::get('/profil', function () {
     return view('profil');
 });
@@ -43,11 +49,17 @@ Route::get('/suratdone', function () {
 Route::get('/suratmasuk', function () {
     return view('admin_suratmasuk');
 });
+Route::get('/suratmasuk_surat', function () {
+    return view('admin_suratmasuk_surat');
+});
 Route::get('/suratambil', function () {
     return view('admin_suratambil');
 });
 Route::get('/suratpreview', function () {
     return view('admin_previewsurat');
+});
+Route::get('/previewnotif', function () {
+    return view('admin_previewsurat_notif');
 });
 Route::get('/suratacc', function () {
     return view('admin_accsurat');

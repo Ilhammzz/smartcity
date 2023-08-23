@@ -1,5 +1,5 @@
 @extends ('master')
-<a href="/surat_ready_print">
+<a href="/suratambil">
 <i class="fa-solid fa-arrow-left" style="color: #ffffff;padding-top:22px;padding-left:22px;"></i>
 </a>
 @section('judul')
@@ -9,12 +9,12 @@
 @section('konten')
     <div class="kotakadmin">
     <div class="row">
-            <div class="col-1   ">
-                <i class="fa-regular fa-envelope fa-xl mt-3"></i>
+            <div class="col-2">
+            <i class="fa-solid fa-check-to-slot fa-xl mt-3"></i>
             </div>
-            <div class="col-11 mt-1">
+            <div class="col-10 mt-1"  style="margin-left:-1rem;">
                 <p class="judulsurat"> 
-                    Surat siap dicetak
+                    Nama surat
                 </p>
             </div>
         </div>
@@ -34,8 +34,7 @@
 
         <iframe src="{{asset('tes.pdf')}}" frameborder="0" style="width:328px;height: 425px;margin-top:33px;">
         </iframe>
-        <button class="btn-daftar rounded-3 mt-4" type="submit"> Download </button>
-        <button class="btn-daftar rounded-3 mt-4" type="submit"> Selesai </button>
+        <button class="btn-daftar rounded-3 mt-4" type="submit"> Kirim notifikasi </button>
     </div>
     
 
