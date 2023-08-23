@@ -37,11 +37,6 @@
         background-repeat:no-repeat;
     }
 
-    .container-coba {
-        padding : 0px;
-        width : 360px;
-        height : auto;
-    }
         .container-signin {
         padding-right : 20px;
         padding-left : 20px;

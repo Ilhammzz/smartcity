@@ -1,7 +1,7 @@
 @extends ('master')
-
+<a href="{{url('/home')}}">
 <img src="{{asset('img/keyboard_backspace.svg')}}" alt="" style="padding-top:22px;padding-left:22px;">
-
+</a>
 @section('judul')
     Aplikasi Pelayanan <br> Desa Ngrendeng
 @endsection

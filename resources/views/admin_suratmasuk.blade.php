@@ -18,7 +18,7 @@ Pengecekan Surat Pengajuan
             </div>
             <div class="col-10" style="margin-left:-1rem;">
                 <p class="judulsurat"> 
-                    Surat-surat pengajuan <br> yang masuk
+                    Surat-surat pengajuan <br> diterima
                 </p>
             </div>
         </div>

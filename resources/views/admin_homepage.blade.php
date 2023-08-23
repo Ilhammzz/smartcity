@@ -31,6 +31,7 @@
         Dashboard
     </p>
     <div class="row">
+    <a href="{{('/suratmasuk')}}" style="display:block">
         <div class="col-5 kotakkecil">
             <div class="jmlsurat mt-2">
                 <div class=row>
@@ -44,6 +45,7 @@
                 <div class="desckotak mt-4">
                 Surat pengajuan diterima
                 </div>
+                </a>
             </div>
         </div>
         <div class="col-5 kotakkecil ">

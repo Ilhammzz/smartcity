@@ -59,3 +59,6 @@ Route::get('/suratacc', function () {
 Route::get('/pengajuan_diterima', function () {
     return view('pengajuan_diterima');
 });
+Route::get('/status_surat', function () {
+    return view('status_surat');
+});
